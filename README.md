@@ -1,7 +1,5 @@
 # constructor-hangman
-Project 12
-
-Command Line Hangman App
+Project 12: Create a hangman command-line game using constructor functions.
 
 Languages:
   - Node
