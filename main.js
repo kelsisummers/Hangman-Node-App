@@ -24,13 +24,13 @@ function startGame() {
     {
         type: "confirm",
         name: 'game',
-        message: "Play Hangman?",
+        message: "The Name Of The Game Is Hangman.\n  The Theme Is Fantasy Movies.\n  Wanna Play?",
     }
     ]).then(function(start){
         // If Yes...
         if (start.game === true) {
             // First Word Is Displayed 
-            console.log("\n First Word" + "\n \n" + word.underscoreBuilder() + "\n");
+            console.log("\n New Word" + "\n \n" + word.underscoreBuilder() + "\n");
             // playGame() Function Is Called
             playGame();
         // Otherwise, BYE.
@@ -45,6 +45,7 @@ function playGame() {
     // If User Out Of Guesses, GAME OVER.
     if (countdown === 0){
         console.log("GAME OVER. No Guesses Left.\n");
+        console.log("Movie Name: " + word.wordChoice.join("") + "\n");
         // startGame() To Reset Game Play
         startGame();
     // If Word Is Complete, Winner.
