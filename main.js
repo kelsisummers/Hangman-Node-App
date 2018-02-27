@@ -24,7 +24,7 @@ function startGame() {
     {
         type: "confirm",
         name: 'game',
-        message: "The Name Of The Game Is Hangman.\n The Theme Is Game Of Thrones.\n Wanna Play?",
+        message: "The Name Of The Game Is Hangman.\n  The Theme Is Game Of Thrones.\n  Wanna Play?",
     }
     ]).then(function(start){
         // If Yes...
