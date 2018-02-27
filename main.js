@@ -14,7 +14,7 @@ var guessedLetters;
 // Function Prompts User To Start Game
 function startGame() {
     // Resets Guess Count
-    countdown = 10;
+    countdown = 6;
     // Empties Array That Holds Letters/Underscores
     word.lettersArray = [];
     // Empties Guessed Letters Array
