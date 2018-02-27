@@ -1,6 +1,6 @@
 // WordMethod Creates An Object That Holds Fantasy Movie Word Choices
 var WordMethod = function() {
-    this.choices = ["Jurassic Park", "Cloud Atlas", "Harry Potter", "Pan's Laybrinth", "The Chronicles of Narnia", "The Neverending Story", "The Hunger Games", "Avatar", "Constantine", "Spirited Away", "Ladyhawke", "The Dark Crystal", "Stardust", "Pirates of the Caribbean", "Matilda", "The Princess Bride"];
+    this.choices = ["Sansa", "Jon Snow", "Direwolf", "Stark", "Littlefinger", "Arya", "Drogon", "Rhaegal", "Viserion", "The White Walkers", "Lady Catelyn Stark", "The Night's Watch", "Godswood", "Weirwood", "The Children of the Forest", "Brandon the Builder", "The Three Eyed Raven", "The Faceless Men", "Needle", "Daenerys Targaryen"];
 }
 
 // Adds A Function To WordMethod To Choose Randomly Choose Movie
