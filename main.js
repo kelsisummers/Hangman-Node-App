@@ -45,7 +45,7 @@ function playGame() {
     // If User Out Of Guesses, GAME OVER.
     if (countdown === 0){
         console.log("GAME OVER. No Guesses Left.\n");
-        console.log("Movie Name: " + word.wordChoice.join("") + "\n");
+        console.log("Winning Phrase: " + word.wordChoice.join("") + "\n");
         // startGame() To Reset Game Play
         startGame();
     // If Word Is Complete, Winner.
