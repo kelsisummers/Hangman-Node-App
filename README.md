@@ -1,15 +1,19 @@
 # constructor-hangman
-Project 12: Create a hangman command-line game using constructor functions.
 
-Dependencies:
-  - inquirer
-  
+GitHub Repo: https://github.com/kelsisummers/Hangman-Node-App
+
+A hangman command-line game using constructor functions.
+
 Instructions:
   - Open Bash or Terminal
   - Navigate to constructor-hangman directory
+  - Install dependencies
   - Initiate game with 'node main.js'
   - Play On...
 
-Software Stack:
+Tech Stack:
   - Node
-  - Javascript
+  - JavaScript
+
+Dependencies:
+  - inquirer
