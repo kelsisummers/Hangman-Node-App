@@ -1,6 +1,6 @@
-# constructor-hangman
+# Hangman-Node-App
 
-GitHub Repo: https://github.com/kelsisummers/Hangman-Node-App
+<strong>GitHub Repo: https://github.com/kelsisummers/Hangman-Node-App</strong>
 
 A hangman command-line game using constructor functions.
 
